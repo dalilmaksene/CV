@@ -1,0 +1,61 @@
+body {			/* définition du style pour le corps (body) de la page */
+	background-color: #FFFFFF ;  /* fond blanc */
+	font-family: Verdana, Arial; /* polices de caractères par défaut */
+	font-size: 12px; 		/* définition de la taille de police équivalent à 1 unité em */
+	 }
+		
+div.moitie { /* ce type de colonne utilise un tiers de la page */
+  float: left;		/* positionné par rapport à la gauche */
+  width: 49%;		/* occupera 30% de la largeur de la page */
+  border: 1px solid red ;
+  padding: 1px; /* marge interne */
+  margin: 3px; /* marge externe */
+
+}
+div.tier { /* ce type de colonne utilise un tiers de la page */
+  float: left;		/* positionné par rapport à la gauche */
+  border: 1px solid red ;
+  width: 32%;    /* occupera 30% de la largeur de la page */
+  padding: 1px; /* marge interne */
+  margin: 2px; /* marge externe */
+
+}
+div.left {
+	float: left;
+	width: 99%;
+	border: 1px solid red
+	
+}
+	
+	div.titremonde { /* ce type de colonne utilise un tiers de la page */
+  float: left;		/* positionné par rapport à la gauche */
+  border: 1px solid red ;
+  width: 10%;    /* occupera 30% de la largeur de la page */
+  padding: 1px; /* marge interne */
+  margin: 4px; /* marge externe */
+  
+	}
+
+div.mid { /* ce type de colonne utilise un tiers de la page */
+  float: left;		/* positionné par rapport à la gauche */
+  border: 1px solid red ;
+  width: 17%;    /* occupera 30% de la largeur de la page */
+  padding-right: 200px; /* marge interne */
+  margin-top: 1px; /* marge externe */
+  margin-right: 5px
+}
+div.menu { /* ce type de colonne utilise un tiers de la page */
+  float: left;		/* positionné par rapport à la gauche */
+  border: 1px solid red ;
+  width: 18%;    /* occupera 30% de la largeur de la page */
+  margin-top: 50px; /* marge externe */
+  margin-right: 5px
+}
+
+div.news { /* ce type de colonne utilise un tiers de la page */
+  float: left;		/* positionné par rapport à la gauche */
+  border: 1px solid red ;
+  width: 17%;    /* occupera 30% de la largeur de la page */
+  padding: 10px; /* marge interne */
+  margin-top: 50px; /* marge externe */
+  margin-right: 5px
